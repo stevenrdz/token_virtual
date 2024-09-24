@@ -159,6 +159,25 @@ npm run build
 En la carpeta assets se visualiza el flujo del proyecto.
 
 * /login
+
+Se simuló el ingreso de un usuario, de esta forma solo el usuario que se autentique pueda generar un token.
+
+![alt text](https://raw.githubusercontent.com/stevenrdz/token_virtual/refs/heads/main/assets/login.png)
+  
 * /register
+
+Registro de cliente
+
+![alt text](https://raw.githubusercontent.com/stevenrdz/token_virtual/refs/heads/main/assets/register.png)
+
 * /generateToken
+
+Al iniciar sesión se visualiza la vista de generateToken, cada token tendrá un tiempo de 60 segundos, adicional se agregó el ingreso del token, simulando como si es el ingreso del token desde otro proyecto web y permita al usuario continua su flujo.
+
+![alt text](https://raw.githubusercontent.com/stevenrdz/token_virtual/refs/heads/main/assets/generarToken.png)
+
 * /history
+  
+Historial de token del usuario autenticado.
+
+![alt text](https://raw.githubusercontent.com/stevenrdz/token_virtual/refs/heads/main/assets/history.png)
