@@ -30,8 +30,8 @@ TOKEN_EXPIRATION=60 # Expiración del token en segundos (por defecto 60)
 
 ```bash
 
-git clone https://github.com/tu_usuario/backend-token-virtual.git
-cd backend-token-virtual
+git clone https://github.com/stevenrdz/token_virtual.git
+cd token-virtual
 ```
 
 ### Instala las dependencias del proyecto con:
@@ -131,13 +131,13 @@ CREATE TABLE tokens (
 );
 ```
 
-## Despliegue en Producción
+## React Frontend
 
-Para desplegar esta aplicación en un entorno de producción, debes:
+Para desplegar el frontend en react, debes:
 
-* Configurar las variables de entorno en tu servidor de producción.
-* Asegurarte de que tu servidor de base de datos esté accesible desde el entorno de producción.
-* Ejecutar el comando:
+* Configurar las variables de entorno en tu servidor.
+* Asegurarte de que tu servidor esté accesible.
+* Ejecutar el siguiente comando:
 
 ```bash
 npm run build
@@ -153,3 +153,12 @@ npm run build
 * node-cron: Para tareas programadas (si lo necesitas en el futuro).
 * swagger-jsdoc: Para generar la documentación de la API.
 * swagger-ui-express: Para servir la documentación de Swagger en la API.
+
+## Flujo
+
+En la carpeta assets se visualiza el flujo del proyecto.
+
+* /login
+* /register
+* /generateToken
+* /history
