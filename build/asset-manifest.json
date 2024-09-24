@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c27827d.css",
+    "main.js": "/static/js/main.942c3aa3.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/curved6.jpg": "/static/media/curved6.a3404381623e4be7c97b.jpg",
+    "static/media/curved14.jpg": "/static/media/curved14.12c9ea54425c4f1bc1d7.jpg",
+    "index.html": "/index.html",
+    "main.7c27827d.css.map": "/static/css/main.7c27827d.css.map",
+    "main.942c3aa3.js.map": "/static/js/main.942c3aa3.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c27827d.css",
+    "static/js/main.942c3aa3.js"
+  ]
+}
